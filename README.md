@@ -1,6 +1,6 @@
 # Text Extractor V1
 
-A simple project that extracts text presumably sent from an ocr model and returns json object containing either an ID or a Logbook json
+A simple project that extracts text presumably sent from an ocr model and returns json object containing either an ID or a Logbook data
 
 ## API Reference
 
