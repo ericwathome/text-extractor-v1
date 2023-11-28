@@ -4,12 +4,6 @@ A simple project that extracts text presumably sent from an ocr model and return
 
 ## API Reference
 
-#### Get all items
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `api_key` | `string` | **Required**. Your OpenAi API key |
-
 #### Get ID Card json response
 
 ```http
