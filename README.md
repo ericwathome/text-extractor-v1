@@ -1,13 +1,13 @@
 # Text Extractor V1
 
-A simple project that extracts text presumably sent from an ocr model and returns json object containing either an ID or a Logbook data
+A simple project that extracts text presumably sent from an ocr model and returns a json object containing either an ID or Logbook data depending on the api request
 
 ## API Reference
 
 #### Get all items
 
-| Parameter                        | Type     | Description                       |
-| :------------------------------- | :------- | :-------------------------------- |
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
 | `api_key` | `string` | **Required**. Your OpenAi API key |
 
 #### Get ID Card json response
