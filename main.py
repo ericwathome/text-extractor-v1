@@ -9,7 +9,7 @@ from dto.TextDto import TextDto
 
 app = FastAPI()
 
-marvin.settings.openai.api_key = ''
+marvin.settings.openai.api_key = 'your open-ai apiKey'
 
 @app.post("/identity_card_json")
 async def extract_id_json(text: TextDto) -> IdentityCard:

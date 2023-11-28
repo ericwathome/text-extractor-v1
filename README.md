@@ -8,7 +8,7 @@ A simple project that extracts text presumably sent from an ocr model and return
 
 | Parameter                        | Type     | Description                       |
 | :------------------------------- | :------- | :-------------------------------- |
-| `marvin.settings.openai.api_key` | `string` | **Required**. Your OpenAi API key |
+| `api_key` | `string` | **Required**. Your OpenAi API key |
 
 #### Get ID Card json response
 
@@ -20,7 +20,7 @@ A simple project that extracts text presumably sent from an ocr model and return
 | :----- | :----- | :--------------------------------------------- |
 | `text` | `json` | **Required**. containing a single `text` field |
 
-#### Get ID Card json response
+#### Get LogBook json response
 
 ```http
   POST /logbook_card_json
